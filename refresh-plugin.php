@@ -3,7 +3,7 @@
   Plugin Name: Refresh Plugin
   Description: Plugin for refreshing div every 3 sec
   Version: 1
-  Author: Sahil Gulati
+  Author: Kaushik
  */
 add_action( 'wp_enqueue_scripts', 'so_enqueue_scripts' );
 add_action( 'admin_enqueue_scripts', 'so_enqueue_scripts' );
