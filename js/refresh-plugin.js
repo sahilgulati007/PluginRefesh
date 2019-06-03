@@ -26,7 +26,7 @@ jQuery(document).ready(function () {
             //alert("Hello");
             //alert(jQuery("div.refresh-content").attr('data-shortcode'));
             jQuery('.refresh-content').each(function(){
-                jQuery(this).fadeOut( "slow" );
+                //jQuery(this).fadeOut( "slow" );
                 var data = {
                     'action': 'execute_code',
                     'sc': jQuery(this).attr('data-shortcode')
@@ -35,7 +35,7 @@ jQuery(document).ready(function () {
                 jQuery.post(ajax_object.ajaxurl, data, function(response) {
                     //alert(response);
                     jQuery(cthis).html(response);
-                    jQuery(cthis).fadeIn( "slow" );
+                    //jQuery(cthis).fadeIn( "slow" );
                 });
             });
             // var data = {

@@ -6,7 +6,7 @@
   Author: Kaushik
  */
 add_action( 'wp_enqueue_scripts', 'so_enqueue_scripts' );
-add_action( 'admin_enqueue_scripts', 'so_enqueue_scripts' );
+//add_action( 'admin_enqueue_scripts', 'so_enqueue_scripts' );
 function so_enqueue_scripts(){
     wp_register_script('jquery3','https://code.jquery.com/jquery-3.3.1.js');
     wp_enqueue_script( 'jquery3');
